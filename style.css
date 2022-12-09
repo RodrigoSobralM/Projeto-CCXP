@@ -15,7 +15,7 @@ main {
     justify-content: center;
 }
 #countDown {
-    align-items: center;
+    
     margin-top: -31px;
 }
 #timer {
@@ -67,7 +67,6 @@ main {
 }
 #squad {
     width: 100%;
-   
 }
 #countDown h2 {
     font-style: normal;
@@ -75,8 +74,8 @@ main {
     font-size: 30px;
     line-height: 36px;
     color: #E33881;
-    text-align: center;
     margin-bottom: 18px;
+    margin-left: 30px;
 }
 
 #container {
