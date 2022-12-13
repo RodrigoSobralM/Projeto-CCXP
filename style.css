@@ -81,6 +81,7 @@ main {
    grid-auto-flow: column;
    align-items: center;
    margin-top: -75px;
+   margin-bottom: 20px;
 }
 
 #card h2 {
