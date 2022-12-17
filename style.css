@@ -1,113 +1,162 @@
-*{
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header {
-    background: #FFD900;
-    
-}
-header img {
-    padding: 27px 40px;
-}
-main {
+    *{
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header {
+        background: #FFD900;
+        
+    }
+    header img {
+        padding: 27px 40px;
+    }
+    main {
+        display: grid;
+        grid-auto-flow: column;  
+    }
+    #countDown {
+        
+        margin-top: -30 px;
+    }
+    #timer {
+        display: flex;
+        justify-content: space-around;
+        color: #514988;
+        margin-right: 67px;
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .font {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 85px;
+    }
+    .text {
+        background: #514988;
+        text-align: center;
+        width: 802px;
+        height: 605px;
+    }
+
+    #textP {
+        padding: 31px 29px;
+    }
+    .text h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 85px;
+        color: #F3C61F;
+    }
+    .text h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: white;
+    }
+    #subText {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 35px;
+        color: white;
+        padding: 30px 28px;
+        margin-top: -30px;
+    }
+
+    #countDown h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #E33881;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    #container {
     display: grid;
-    grid-auto-flow: column;  
-}
-#countDown {
-    
-    margin-top: -30 px;
-}
-#timer {
-    display: flex;
-    justify-content: space-around;
-    color: #514988;
-    margin-right: 67px;
-    margin-top: 35px;
-    width: 100%;
-}
+    grid-auto-flow: column;
+    align-items: center;
+    margin-top: -75px;
+    margin-bottom: 20px;
+    }
 
-.font {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 85px;
-}
-.text {
-    background: #514988;
-    text-align: center;
-    width: 802px;
-    height: 605px;
-}
+    #card h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 33px;
+        color: #F3C61F;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
 
-#textP {
-    padding: 31px 29px;
-}
-.text h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 85px;
-    color: #F3C61F;
-}
-.text h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: white;
-}
-#subText {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 29px;
-    line-height: 35px;
-    color: white;
-   padding: 30px 28px;
-   margin-top: -30px;
-}
+    button {
+        background: #514988;
+        width: 596px;
+        height: 148px;
+        border-radius: 20px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 51px;
+        color: white;
+        margin-top: 50px;
+    }
+    video {
+        width: 100%;
+        height: 550px;
+        margin-top: -17px;
+    }
 
-#countDown h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: #E33881;
-    margin-left: 10px;
-    width: 100%;
-}
+@media only screen and (max-width: 600px){
+    header {
+        text-align: center;
+        width: 280px;
+    }
 
-#container {
-   display: grid;
-   grid-auto-flow: column;
-   align-items: center;
-   margin-top: -75px;
-   margin-bottom: 20px;
-}
-
-#card h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 33px;
-    color: #F3C61F;
-    margin-left: 20px;
-    margin-bottom: 15px;
-}
-
-button {
-    background: #514988;
-    width: 596px;
-    height: 148px;
-    border-radius: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 51px;
-    color: white;
-    margin-top: 50px;
-}
-video {
-    width: 100%;
-    height: 550px;
-    margin-top: -17px;
-}
+    main {
+        display: grid;
+        grid-auto-flow: row;
+        width: 280px;
+    }
+    #textP {
+        margin: 0;
+        text-align: center;
+    }
+    #textP h1{
+        width: 280px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #textP h2 {
+        width: 280px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .text {
+        width: 280px;
+        text-align: center;
+    }
+    #subText {
+        width: 10px;
+        font-size: 10px;
+        font-weight: 10px;
+    }
+    #timer {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        align-items: center;
+        margin: 0;
+    }
+    #countDown h2 {
+        width: 280px;
+    }
+    video {
+        width: 280px;
+    }
+}    
