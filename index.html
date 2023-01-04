@@ -55,12 +55,12 @@
         </div>
     </main>
     <footer id="container">
-        <div id="card">
+        <div class="card">
             <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
-            <img src="img/quin.svg" onmouseenter="addRedBorder(id)" onmouseleave="removeRedBorder(id)" id="quinta" alt="">
-            <img src="img/sext.svg" onmouseenter="addRedBorder(id)" onmouseleave="removeRedBorder(id)" id="sexta" alt="">
-            <img src="img/saba.svg" onmouseenter="addRedBorder(id)" onmouseleave="removeRedBorder(id)" id="sabado" alt="">
-            <img src="img/domi.svg" onmouseenter="addRedBorder(id)" onmouseleave="removeRedBorder(id)" id="domingo" alt="">
+            <img src="img/quin.svg" id="quinta" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')"  alt="">
+            <img src="img/sext.svg" id="sexta"  onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" alt="">
+            <img src="img/saba.svg" id="sabado"  onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" alt="">
+            <img src="img/domi.svg" id="domingo" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" alt="">
         </div>
         <div id="btn">
             <button>GARANTA O SEU!</button>

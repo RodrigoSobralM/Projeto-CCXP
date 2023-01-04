@@ -83,11 +83,8 @@
         margin-top: -75px;
         margin-bottom: 20px;
     }
-    #card img{
-        cursor: pointer;
-    }
 
-    #card h2 {
+    .card h2 {
         font-style: normal;
         font-weight: 700;
         font-size: 27px;
@@ -119,9 +116,11 @@
         height: 550px;
         margin-top: -17px;
     }
-
     section {
         background-color: #FFD900;
         width: 100%;
         height: 10px;
+    }
+    .card-highlight {
+        box-shadow: 10px 10px 10px grey;
     }
